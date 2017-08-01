@@ -16,7 +16,7 @@ See https://docs.helm.sh for more about Helm.
 # Installing this chart
 To install with release name `my-release` run:
 ```
-helm registry install quay.io/3dsim/grafana --name=my-release
+helm registry install quay.io/3dsim/grafana --name=my-release --set dataSourceURL=<url of prometheus to visualize>
 ```
 
 # Uninstalling the Chart
