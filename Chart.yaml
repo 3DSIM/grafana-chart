@@ -1,0 +1,9 @@
+description: Grafana instance for visualizing prometheus data
+engine: gotpl
+maintainers:
+- email: webteam@3dsim.com
+  name: 3DSIM
+name: grafana
+sources:
+- https://github.com/3DSIM/grafana-chart
+version: 0.1.0
