@@ -6,4 +6,4 @@ maintainers:
 name: grafana
 sources:
 - https://github.com/3DSIM/grafana-chart
-version: 0.1.0
+version: 0.1.1

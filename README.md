@@ -68,3 +68,9 @@ helm registry install quay.io/3dsim/grafana --name=my-release -f values.yaml
 
 # Developers
 Modify the chart and be sure to bump the version in [Chart.yaml](Chart.yaml).  After that, follow these directions to push the changes to Quay.io: https://github.com/app-registry/appr-helm-plugin#create-and-push-your-own-chart
+
+Key instructions from the link:
+```
+helm registry login -u <your quay.io username> quay.io
+helm registry push --namespace 3dsim quay.io
+```
